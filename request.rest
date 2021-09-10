@@ -1,0 +1,30 @@
+### use REST Client on VScode
+
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWVsaW5lIiwiaWF0IjoxNjMxMzEzMzYxLCJleHAiOjE2MzEzMTMzNzZ9.olMO0rmLgKZfpiBJT7AVeJDXXaqZT47TLxZ40SgxpdA
+###
+
+POST http://localhost:3000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWVsaW5lIiwiaWF0IjoxNjMxMzEzMzMxfQ.MFUtBSNhhMVfD-b9OPQ0PN-X97non-QZcuyhRf_g1YI"
+}
+
+###
+
+DELETE http://localhost:3000/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWVsaW5lIiwiaWF0IjoxNjMxMzEzMzE0fQ.lz-2jUv0ziIiorRM9Tx7DAxJRQavWEDSP2QwGUEo13o"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"meline"
+}
