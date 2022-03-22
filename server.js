@@ -13,8 +13,8 @@ const posts = [
         title: "Badaboum"
     },
     {
-        username: "meline",
-        title: "clermont"
+        username: "manon",
+        title: "beauvais"
     }
 ]
 
